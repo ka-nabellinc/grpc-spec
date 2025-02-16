@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package ka_nabllinc.grpc_spec;
+package ka_nabellinc.grpc_spec;
 
 import "google/protobuf/descriptor.proto";
 
