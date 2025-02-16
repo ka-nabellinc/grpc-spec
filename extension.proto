@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ka_nabllinc.grpc_spec;
+
+import "google/protobuf/descriptor.proto";
+
+message GrpcSpecRule {
+  repeated string status_codes = 1;
+}
+
+extend google.protobuf.MethodOptions {
+  GrpcSpecRule spec = 51001;
+}
